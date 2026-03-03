@@ -9,6 +9,7 @@
 
 ---
 
+
 ## 🌟 Vision
 
 VibeOut kombiniert **Mistral Vibe** (für natürliche Diskussionen) mit **Go-Mikroservices** (für Performance) und **Docker** (für Portabilität).  
@@ -26,20 +27,17 @@ Developern, Architekten und Teams, die **keine Zeit für manuelles Dokumentieren
 
 ## 🚀 Schnellstart (Docker)
 
+
+```markdown
+## 🚀 Schnellstart
+### Option 1: Docker (lokal)
 ```bash
-# 1. Repo klonen
-git clone https://github.com/GrosseBen/vibeout
-cd vibeout
-
-# 2. Docker starten (Go-Server + Vibe)
-docker-compose up -d
-
-# 3. Diskussion beginnen
-docker-compose exec vibe vibe --agent vibeout/think
-> was bisher geschah diskussionen/beispiel.md
+docker run -d --name vibeout -p 8080:8080 grosseben/vibeout
 ```
 
-*(Hinweis: Docker-Images folgen in Kürze!)*
+→ **Demo**: [https://vibeout.ing](https://vibeout.ing) *(folgt!)*
+
+📖 [vibeout.ing/docs](https://vibeout.ing/docs) *(automatisch aus `/docs` generiert)*
 
 ---
 
